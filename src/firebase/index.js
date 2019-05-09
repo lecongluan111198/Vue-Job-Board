@@ -3,12 +3,13 @@ import VueFire from 'vuefire'
 import firebase from 'firebase'
 
 export const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyCLahv7RvRR4f79yZBX__ZGpRlUHzl5T84",
-    authDomain: "lambdademy.firebaseapp.com",
-    databaseURL: "https://lambdademy.firebaseio.com",
-    projectId: "lambdademy",
-    storageBucket: "lambdademy.appspot.com",
-    messagingSenderId: "350094766117"
+    apiKey: "AIzaSyD2yzXMXx7SOmRIXpGTN6yrP7c31WTiWdU",
+    authDomain: "vuejsbeginer.firebaseapp.com",
+    databaseURL: "https://vuejsbeginer.firebaseio.com",
+    projectId: "vuejsbeginer",
+    storageBucket: "vuejsbeginer.appspot.com",
+    messagingSenderId: "569812098406",
+    appId: "1:569812098406:web:32963692fb835e07"
 })
 
 // export const db = firebaseApp.database();
